@@ -1,16 +1,14 @@
 # Swin-Unet
-The codes for the work "Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation"(https://arxiv.org/abs/2105.05537). A validation for U-shaped Swin Transformer. Our paper has been accepted by ECCV 2022 MEDICAL COMPUTER VISION WORKSHOP (https://mcv-workshop.github.io/). We updated the Reproducibility. I hope this will help you to reproduce the results.
+The codes for the work "Medical Image Segmentation using 3D-Unet"
 
-## 1. Download pre-trained swin transformer model (Swin-T)
-* [Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
 
-## 2. Prepare data
+## 1. Prepare data
 
 - The datasets we used are provided by TransUnet's authors. [Get processed data in this link] (https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please go to ["./datasets/README.md"](datasets/README.md) for details, or please send an Email to jienengchen01 AT gmail.com to request the preprocessed data. If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
 
 ## 3. Environment
 
-- Please prepare an environment with python=3.7, and then use the command "pip install -r requirements.txt" for the dependencies.
+- Please prepare an environment with python=3.10.8, and then use the command "pip install -r requirements.txt" for the dependencies.
 
 ## 4. Train/Test
 
@@ -41,23 +39,3 @@ Our trained model is stored on the Huawei cloud. The interns do not have the rig
 ## References
 * [TransUnet](https://github.com/Beckschen/TransUNet)
 * [SwinTransformer](https://github.com/microsoft/Swin-Transformer)
-
-## Citation
-
-```bibtex
-@InProceedings{swinunet,
-author = {Hu Cao and Yueyue Wang and Joy Chen and Dongsheng Jiang and Xiaopeng Zhang and Qi Tian and Manning Wang},
-title = {Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation},
-booktitle = {Proceedings of the European Conference on Computer Vision Workshops(ECCVW)},
-year = {2022}
-}
-
-@misc{cao2021swinunet,
-      title={Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation}, 
-      author={Hu Cao and Yueyue Wang and Joy Chen and Dongsheng Jiang and Xiaopeng Zhang and Qi Tian and Manning Wang},
-      year={2021},
-      eprint={2105.05537},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
-```
