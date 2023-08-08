@@ -16,10 +16,5 @@ The codes for the work "Medical Image Segmentation using 3D-Unet"
 
 
 ### References
-1.Çiçek, Ö., Abdulkadir, A., Lienkamp, S. S., Brox, T., & Ronneberger, O. (2016). 3D U-Net: learning dense volumetric segmentation from sparse annotation. In Medical Image Computing and Computer-Assisted Intervention–MICCAI 2016: 19th International Conference, Athens, Greece, October 17-21, 2016, Proceedings, Part II 19 (pp. 424-432). Springer International Publishing.
-2.Mehta, Raghav, et al. "QU-BraTS: MICCAI BraTS 2020 challenge on quantifying uncertainty in brain tumor segmentation-analysis of ranking scores and benchmarking results." The journal of machine learning for biomedical imaging 2022 (2022).
-
-#### References
-1. Stropahl, Maren, et al. "Source-modeling auditory processes of EEG data using EEGLAB and brainstorm." Frontiers in neuroscience 12 (2018): 309.
-2. Zhang, Haoming, et al. "EEGdenoiseNet: A benchmark dataset for end-to-end deep learning solutions of EEG denoising." arXiv preprint arXiv:2009.11662 (2020).
-3. Karhunen, J., Oja, E., Wang, L., Vigario, R., & Joutsensalo, J. (1997). A class of neural networks for independent component analysis. IEEE Transactions on neural networks, 8(3), 486-504.
+1. Çiçek, Ö., Abdulkadir, A., Lienkamp, S. S., Brox, T., & Ronneberger, O. (2016). 3D U-Net: learning dense volumetric segmentation from sparse annotation. In Medical Image Computing and Computer-Assisted Intervention–MICCAI 2016: 19th International Conference, Athens, Greece, October 17-21, 2016, Proceedings, Part II 19 (pp. 424-432). Springer International Publishing.
+2. Mehta, Raghav, et al. "QU-BraTS: MICCAI BraTS 2020 challenge on quantifying uncertainty in brain tumor segmentation-analysis of ranking scores and benchmarking results." The journal of machine learning for biomedical imaging 2022 (2022).
