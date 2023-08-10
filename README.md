@@ -1,4 +1,4 @@
-# Swin-Unet
+# 3D-Unet
 The codes for the work "Medical Image Segmentation using 3D-Unet"
 
 
